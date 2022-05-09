@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T05:26:24.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="58pZ7w4qHmpt9lFdOlJb" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T05:27:10.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="MesJQMuNH5iW1xyTUi5W" version="18.0.2" type="github">
   <diagram id="bIvY78ZrXnlHgok6GJ14" name="Page-1">
     <mxGraphModel dx="825" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,13 +77,13 @@
           <mxGeometry x="510" y="180" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lGh8PaGV3R4hgvd5C4fW-31" value="&lt;div style=&quot;&quot;&gt;房间管理系统&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="560" y="180" width="20" height="120" as="geometry" />
+          <mxGeometry x="555" y="180" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lGh8PaGV3R4hgvd5C4fW-32" value="&lt;div style=&quot;&quot;&gt;数据管理系统&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="660" y="180" width="20" height="120" as="geometry" />
+          <mxGeometry x="650" y="180" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lGh8PaGV3R4hgvd5C4fW-33" value="&lt;div style=&quot;&quot;&gt;战斗管理系统&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="610" y="180" width="20" height="120" as="geometry" />
+          <mxGeometry x="600" y="180" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
