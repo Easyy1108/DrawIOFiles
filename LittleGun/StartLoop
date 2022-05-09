@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T06:34:57.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" version="18.0.2" etag="PpplOdPPIWRafv8xqPpV" type="github"><diagram id="16fFnWyYKo2A-i8PBnqG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T06:37:17.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="w6_lbZWQqnRaQroM9XYu" version="18.0.2" type="github">
+  <diagram id="16fFnWyYKo2A-i8PBnqG" name="Page-1">
+    <mxGraphModel dx="825" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wr2L-vGUKtGpJQ8ExJiv-1" target="wr2L-vGUKtGpJQ8ExJiv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-1" value="StartLoop(listenport)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wr2L-vGUKtGpJQ8ExJiv-2" target="wr2L-vGUKtGpJQ8ExJiv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-2" value="Socket&lt;br&gt;Bind&lt;br&gt;Listen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wr2L-vGUKtGpJQ8ExJiv-4" target="wr2L-vGUKtGpJQ8ExJiv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-4" value="Select" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wr2L-vGUKtGpJQ8ExJiv-6" target="wr2L-vGUKtGpJQ8ExJiv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="290" />
+              <mxPoint x="230" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wr2L-vGUKtGpJQ8ExJiv-6" value="监听端口处理&lt;br&gt;客户端端口处理&lt;br&gt;定时器处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
