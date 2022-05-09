@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:03:02.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" version="18.0.2" etag="k4UrnE-KrTJWjF3F1C3G" type="github"><diagram id="J4C4E9BeQG4J0ety5PwX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:11:17.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="2tt3M_mhrspx397WMfoe" version="18.0.2" type="github">
+  <diagram id="J4C4E9BeQG4J0ety5PwX" name="Page-1">
+    <mxGraphModel dx="676" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ojfsODoRpSM9TJCJ7SBU-9" value="DbManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfsODoRpSM9TJCJ7SBU-10" value="+ mysql: MySqlConnection&#xa;- js: JavaScriptSerializer&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ojfsODoRpSM9TJCJ7SBU-9">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfsODoRpSM9TJCJ7SBU-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ojfsODoRpSM9TJCJ7SBU-9">
+          <mxGeometry y="70" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfsODoRpSM9TJCJ7SBU-12" value="+ Connect(string db, string ip ,&#xa;string port, string user, string&#xa; pw) : bool&#xa;+ IsAccountExist(string id): bool&#xa;+ Register(string id, string pw): bool&#xa;+ CreatePlayer(string id): bool&#xa;+ CheckPassword(string id, string pw): bool&#xa;+ GetPlayerData(string id): PlayerData&#xa;+ UpdatePlayerData(string id, PlayerData&#xa;playerData): bool&#xa;+ IsSafaString(string str): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ojfsODoRpSM9TJCJ7SBU-9">
+          <mxGeometry y="80" width="240" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
